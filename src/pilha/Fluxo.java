@@ -1,5 +1,6 @@
 package pilha;
 
+import exception.MinhaException;
 import modelo.Conta;
 
 public class Fluxo {
@@ -8,7 +9,7 @@ public class Fluxo {
         System.out.println("Ini do main");
         try{
             metodo1();
-        } catch (NullPointerException | ArithmeticException ex) {
+        } catch (NullPointerException | ArithmeticException | MinhaException ex) {
             String msg = ex.getMessage();
             System.out.println(msg);
             ex.printStackTrace();
@@ -29,7 +30,8 @@ public class Fluxo {
 //            int a = 5;
 //            int b = 0;
 //            int result = a / b;
-            throw new ArithmeticException("Deu erro");
+           // throw new ArithmeticException("Deu erro");
+            throw new MinhaException("Deu erro");
 
         }
         System.out.println("Fim do metodo2");

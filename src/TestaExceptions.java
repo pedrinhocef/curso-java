@@ -1,3 +1,4 @@
+import exception.SaldoInsuficienteException;
 import modelo.Conta;
 
 public class TestaExceptions {
@@ -6,9 +7,14 @@ public class TestaExceptions {
         Conta conta = new ContaCorrente(212, 211);
         conta.deposita(200);
 
-        conta.saca(198);
+        try {
+            conta.saca(201);
+        } catch (SaldoInsuficienteException ex) {
+            System.out.println(ex.getMessage());
+            ex.printStackTrace();
+        }
 
-        System.out.println("Saldo da conta após concluir saque : "
+        System.out.println("Saldo da conta : "
                 + conta.getSaldo());
     }
 }

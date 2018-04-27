@@ -1,3 +1,5 @@
+package modelo;
+
 import modelo.Conta;
 
 public class ContaPoupanca extends Conta {

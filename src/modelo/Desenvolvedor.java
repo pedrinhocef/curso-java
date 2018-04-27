@@ -1,3 +1,5 @@
+package modelo;
+
 import interfaces.Autenticavel;
 import modelo.Funcionario;
 import util.AutenticacaoUtil;

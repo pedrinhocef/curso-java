@@ -1,5 +1,8 @@
+package testes;
+
 import exception.SaldoInsuficienteException;
 import modelo.Conta;
+import modelo.ContaCorrente;
 
 public class TestaExceptions {
 

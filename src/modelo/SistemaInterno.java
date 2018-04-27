@@ -1,3 +1,5 @@
+package modelo;
+
 import interfaces.Autenticavel;
 
 public class SistemaInterno {

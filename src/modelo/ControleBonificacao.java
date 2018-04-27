@@ -1,3 +1,5 @@
+package modelo;
+
 import modelo.Funcionario;
 
 public class ControleBonificacao {

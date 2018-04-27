@@ -1,4 +1,6 @@
-import modelo.Cliente;
+package testes;
+
+import modelo.*;
 
 public class TesteFuncionario {
 

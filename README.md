@@ -1,4 +1,4 @@
-# Curso Carreira Desenvolvedor Java- Alura
+# Curso Carreira modelo.Desenvolvedor Java- Alura
 Projeto desenvolvido nos cursos de Java do Alura.
 # Concetitos Utilizados
 - Herança

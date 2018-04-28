@@ -9,6 +9,8 @@ Projeto desenvolvido nos cursos de Java do Alura.
 - Checked e Unchecked
 - Pilha de Execução
 - Aplicando exceções
+- Javadoc
+- Java.lang
 # link do curso  
 https://cursos.alura.com.br/career/desenvolvedor-java-junior
 # Certificado do curso

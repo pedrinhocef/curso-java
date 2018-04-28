@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a07629-3322-4519-9e6e-e69c26cb58e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/exception/MinhaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/exception/SaldoInsuficienteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/interfaces/Autenticavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/interfaces/Tributavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/CalculadorDeImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ControleBonificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Desenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/SistemaInterno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/pilha/Fluxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TestaConexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TestaExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteTributaveis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/util/AutenticacaoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/Conexao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/ContaCorrente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/ContaPoupanca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/ControleBonificacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/Desenvolvedor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/Gerente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/SistemaInterno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/exception/MinhaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/exception/SaldoInsuficienteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/interfaces/Autenticavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/interfaces/Tributavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/modelo/CalculadorDeImposto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/modelo/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/modelo/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/modelo/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/pilha/Fluxo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/util/AutenticacaoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutenticacaoUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AutenticacaoUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/util/AutenticacaoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="352">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conta.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -117,6 +99,8 @@
         <option value="$PROJECT_DIR$/src/banco/testes/TesteTributaveis.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/modelo/CalculadorDeImposto.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/CalculadorDeImposto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" />
       </list>
     </option>
   </component>
@@ -167,17 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bytebank-heranca" type="58d84e3e:PackageViewProjectNode" />
-              <item name="bytebank-heranca" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,12 +169,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="banco" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebank-heranca" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bytebank-heranca" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bytebank-heranca" type="616d4139:PackageViewModuleNode" />
+              <item name="br.com.bytebank.banco" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -343,23 +325,23 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48658317" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48658317" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.23805667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.24615385" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291592" />
       <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.2340081" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291592" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291592" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -581,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/interfaces/Autenticavel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -627,13 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -700,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,8 +694,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/util/AutenticacaoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>

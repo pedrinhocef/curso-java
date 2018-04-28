@@ -2,6 +2,11 @@ package br.com.bytebank.banco.modelo;
 
 import br.com.bytebank.banco.exception.SaldoInsuficienteException;
 
+/**
+ * @author Pedro Soares
+ * Classe representa a moldura de uma conta
+ */
+
 public abstract class Conta {
 
     protected double saldo;
@@ -10,6 +15,11 @@ public abstract class Conta {
     private Cliente titular;
     private static int total = 0;
 
+    /**
+     * Inicilizar o objeto da conta a partir da agendia e numero
+     * @param agencia
+     * @param numero
+     */
     public Conta(int agencia, int numero){
         if(agencia < 1) {
             throw new IllegalArgumentException("Agencia inválida");

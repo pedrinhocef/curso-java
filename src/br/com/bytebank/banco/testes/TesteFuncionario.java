@@ -1,7 +1,6 @@
 package br.com.bytebank.banco.testes;
 
 import br.com.bytebank.banco.modelo.*;
-import br.com.bytebank.modelo.*;
 
 public class TesteFuncionario {
 

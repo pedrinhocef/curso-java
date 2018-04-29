@@ -1,5 +1,8 @@
 package br.com.bytebank.banco.testes;
 
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
+
 public class TestaString {
 
     public static void main(String[] args) {
@@ -37,6 +40,12 @@ public class TestaString {
         builder.append("Marrocos");
         String texto = builder.toString();
         System.out.println(texto);
+
+        ContaCorrente cc = new ContaCorrente(0204, 12345);
+        ContaPoupanca cp = new ContaPoupanca(0227, 12378);
+
+        System.out.println(cc);
+        System.out.println(cp);
 
     }
 }

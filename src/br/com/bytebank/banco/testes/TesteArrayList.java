@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class TesteArrayList {
 
     public static void main(String[] args) {
-
-        ArrayList lista = new ArrayList();
+        //utilizando <generics>
+        ArrayList<Conta> lista = new ArrayList<>();
 
         Conta cc = new ContaCorrente(22, 33);
         Conta cp = new ContaPoupanca(33, 45);
@@ -20,7 +20,7 @@ public class TesteArrayList {
 
         System.out.println(lista.size());
 
-        Conta ref = (Conta) lista.get(0);
+        Conta ref = lista.get(0);
         System.out.println(ref.getNumero());
 
         for (int i = 0; i < lista.size() ; i++) {
@@ -33,9 +33,13 @@ public class TesteArrayList {
 
         System.out.println("----------");
 
-        for(Object oRef : lista) {
-            System.out.println(oRef);
+        for(Conta conta : lista) {
+            System.out.println(conta);
         }
+        Conta cp2 = new ContaPoupanca(33, 45);
+
+        boolean existe = lista.contains(cp2);
+        System.out.println("Exite conta ? " + existe);
 
     }
 }

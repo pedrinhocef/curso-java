@@ -11,6 +11,8 @@ Projeto desenvolvido nos cursos de Java do Alura.
 - Aplicando exceções
 - Javadoc
 - Java.lang
+- Java.util
+- Generics
 # link do curso  
 https://cursos.alura.com.br/career/desenvolvedor-java-junior
 # Certificado do curso

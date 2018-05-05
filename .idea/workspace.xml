@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a07629-3322-4519-9e6e-e69c26cb58e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-heranca/br/com/bytebank/banco/testes/TesteArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-heranca/br/com/bytebank/banco/testes/TesteArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,10 +18,24 @@
       <file leaf-file-name="TesteArrayList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="65" column="79" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="79" />
+            <state relative-caret-position="153">
+              <caret line="82" selection-start-line="82" selection-end-line="82" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+              <folding>
+                <element signature="e#2582#2583#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+                <element signature="method#toString#0;class#Conta#0" />
               </folding>
             </state>
           </provider>
@@ -84,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteGuardador.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/GuardadorDeContas.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/GuardadorDeReferencias.java" />
-        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteWrapperInteger.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java" />
       </list>
     </option>
@@ -106,6 +119,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="TesteArrayList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -132,43 +189,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="bytebank-heranca" type="cbb8eebc:String" user="bytebank-heranca" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="testes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="testes" type="462c0819:PsiDirectoryNode" />
-              <item name="TesteArrayList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +384,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.68336314" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.29635626" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.30121458" />
       <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.2340081" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -716,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteWrapperInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -737,10 +750,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+          <folding>
+            <element signature="e#2582#2583#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="method#toString#0;class#Conta#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="65" column="79" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="79" />
+        <state relative-caret-position="153">
+          <caret line="82" selection-start-line="82" selection-end-line="82" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

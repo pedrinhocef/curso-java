@@ -6,6 +6,7 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class TesteArrayList {
@@ -62,8 +63,8 @@ public class TesteArrayList {
 //        }
 
 
-        NumeroDaContaComparator comparator = new NumeroDaContaComparator();
-        TitularDaContaComparator nomeComparator = new TitularDaContaComparator();
+//        NumeroDaContaComparator comparator = new NumeroDaContaComparator();
+//        TitularDaContaComparator nomeComparator = new TitularDaContaComparator();
 
 //        boolean existe = lista.contains(cp2);
 //        System.out.println("Exite conta ? " + existe);
@@ -73,7 +74,14 @@ public class TesteArrayList {
         }
         System.out.println("---------------------");
 
-        lista.sort(nomeComparator);
+//        lista.sort(new TitularDaContaComparator());
+//        lista.sort(new NumeroDaContaComparator());
+//
+//        Collections.sort(lista, new TitularDaContaComparator());
+//        Collections.reverse(lista);
+//        Collections.sort(lista);
+        Collections.shuffle(lista);
+//        Collections.rotate(lista, 4); //rotacionar 4 posicoes
 
         for (Conta conta : lista) {
             System.out.println(conta + ", " + conta.getTitular().getNome());
@@ -86,13 +94,17 @@ class NumeroDaContaComparator implements Comparator<Conta> {
     @Override
     public int compare(Conta c1, Conta c2) {
 
-        if (c1.getNumero() < c2.getNumero()) {
-            return -1;
-        }
-        if (c1.getNumero() > c2.getNumero()) {
-            return 1;
-        }
-        return 0;
+        return Integer.compare(c1.getNumero(),c2.getNumero());
+
+//        return c1.getNumero() - c2.getNumero();
+
+//        if (c1.getNumero() < c2.getNumero()) {
+//            return -1;
+//        }
+//        if (c1.getNumero() > c2.getNumero()) {
+//            return 1;
+//        }
+//        return 0;
     }
 }
 

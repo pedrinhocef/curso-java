@@ -6,8 +6,8 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
+import java.util.function.Consumer;
 
 public class TesteArrayList {
 
@@ -80,8 +80,25 @@ public class TesteArrayList {
 //        Collections.sort(lista, new TitularDaContaComparator());
 //        Collections.reverse(lista);
 //        Collections.sort(lista);
-        Collections.shuffle(lista);
+//        Collections.shuffle(lista);
 //        Collections.rotate(lista, 4); //rotacionar 4 posicoes
+
+
+        //Expressao lambda, enxugando classe anonima
+        lista.sort((conta1, conta2) -> {
+            String nomec1 = conta1.getTitular().getNome();
+            String nomec2 = conta2.getTitular().getNome();
+            return nomec1.compareTo(nomec2);
+        });
+
+        //enxugando ainda mais com lambda em apenas 1 linha
+        Comparator<Conta> comp = Comparator.comparingInt(Conta::getNumero);
+
+        //laço utilizando a lista com lambda em 1 linha
+        lista.forEach(conta -> System.out.println(conta + ", " + conta.getTitular().getNome()));
+        System.out.println("------------------------");
+
+        lista.sort(comp);
 
         for (Conta conta : lista) {
             System.out.println(conta + ", " + conta.getTitular().getNome());
@@ -89,15 +106,15 @@ public class TesteArrayList {
 
     }
 }
-class NumeroDaContaComparator implements Comparator<Conta> {
-
-    @Override
-    public int compare(Conta c1, Conta c2) {
-
-        return Integer.compare(c1.getNumero(),c2.getNumero());
-
+//class NumeroDaContaComparator implements Comparator<Conta> {
+//
+//    @Override
+//    public int compare(Conta c1, Conta c2) {
+//
+//        return Integer.compare(c1.getNumero(),c2.getNumero());
+//
 //        return c1.getNumero() - c2.getNumero();
-
+//
 //        if (c1.getNumero() < c2.getNumero()) {
 //            return -1;
 //        }
@@ -105,15 +122,15 @@ class NumeroDaContaComparator implements Comparator<Conta> {
 //            return 1;
 //        }
 //        return 0;
-    }
-}
+//    }
+//}
 
-class TitularDaContaComparator implements Comparator<Conta> {
-
-    @Override
-    public int compare(Conta c1, Conta c2) {
-        String nomec1 = c1.getTitular().getNome();
-        String nomec2 = c2.getTitular().getNome();
-        return nomec1.compareTo(nomec2);
-    }
-}
+//class TitularDaContaComparator implements Comparator<Conta> {
+//
+//    @Override
+//    public int compare(Conta c1, Conta c2) {
+//        String nomec1 = c1.getTitular().getNome();
+//        String nomec2 = c2.getTitular().getNome();
+//        return nomec1.compareTo(nomec2);
+//    }
+//}

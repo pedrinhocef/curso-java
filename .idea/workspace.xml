@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a07629-3322-4519-9e6e-e69c26cb58e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TesteArrayList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TesteArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="467">
               <caret line="98" column="52" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TesteLeitura.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteLeitura.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteWrapperInteger.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java" />
+        <option value="$PROJECT_DIR$/comandos.txt" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteLeitura.java" />
       </list>
     </option>
   </component>
@@ -139,14 +153,7 @@
               <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="modelo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="java_io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,6 +220,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pedri\IdeaProjects\bytebank-heranca" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,20 +236,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteArrayList">
+  <component name="RunManager" selected="Application.TesteLeitura">
     <configuration name="TesteArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.testes.TesteArrayList" />
-      <module name="bytebank-heranca" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.bytebank.banco.testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TesteArrayPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.testes.TesteArrayPrimitivos" />
       <module name="bytebank-heranca" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -272,6 +271,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.bytebank.banco.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteLeitura" />
+      <module name="bytebank-heranca" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.java_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,19 +340,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TesteFuncionario" />
-      <item itemvalue="Application.TesteArrayPrimitivos" />
       <item itemvalue="Application.TesteArrayReferencias" />
       <item itemvalue="Application.TesteGuardadorDeReferencias" />
       <item itemvalue="Application.TesteArrayList" />
       <item itemvalue="Application.TesteWrapperInteger" />
+      <item itemvalue="Application.TesteLeitura" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteLeitura" />
         <item itemvalue="Application.TesteArrayList" />
         <item itemvalue="Application.TesteWrapperInteger" />
         <item itemvalue="Application.TesteGuardadorDeReferencias" />
         <item itemvalue="Application.TesteArrayReferencias" />
-        <item itemvalue="Application.TesteArrayPrimitivos" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +383,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.68336314" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.21295546" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.22348177" />
       <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.2340081" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -396,20 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -751,8 +747,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="467">
           <caret line="98" column="52" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comandos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteLeitura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

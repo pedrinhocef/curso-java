@@ -1,0 +1,17 @@
+comandos git :
+
+
+git init ( inicia um novo repositório)
+git status (exibe um resumo dos arquivos modificados)
+git add (seguido pelo caminho, registra o arquivo no controle de versão)
+git commit -m 'mensagem'
+git push origin master
+git log(histórico de commit)
+git remote(verificar o repositórios remotos)
+git remote add [alias_do_repositorio] [uri_do_repositorio]
+git remote -v (verificar respositórios)
+git push origin master(enviar repositório)
+git clone <url>
+git pull origin master (sincronizar as mudanças no repositório remoto para local)
+git whatchanged (verificar arquivos modificados)
+git whatchanged -p (verificar as linhas modificadas)

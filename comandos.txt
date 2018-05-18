@@ -1,6 +1,5 @@
 comandos git :
 
-
 git init ( inicia um novo repositório)
 git status (exibe um resumo dos arquivos modificados)
 git add (seguido pelo caminho, registra o arquivo no controle de versão)

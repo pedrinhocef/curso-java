@@ -1,1 +1,3 @@
-testando input via teclado
+Testando escrita ......
+
+Segund linha do teste

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8a07629-3322-4519-9e6e-e69c26cb58e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteScanner.java" afterDir="false" />
-    </list>
+    <list default="true" id="f8a07629-3322-4519-9e6e-e69c26cb58e2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,14 +21,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TesteScanner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TesteScanner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="159">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TesteUnicodeEEncoding.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteUnicodeEEncoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TesteSerializacao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteSerializacao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -51,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ConteoleBonificacao.java" />
         <option value="$PROJECT_DIR$/src/ControleBonificacao.java" />
         <option value="$PROJECT_DIR$/src/Cliente.java" />
         <option value="$PROJECT_DIR$/src/Funcionario.java" />
@@ -101,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteEscritaFileWriter.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteEscritaPrintStreamPrintWriter.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteScanner.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteUnicodeEEncoding.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteSerializacao.java" />
       </list>
     </option>
   </component>
@@ -136,6 +156,35 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banco" type="462c0819:PsiDirectoryNode" />
+              <item name="java_io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -162,35 +211,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="bytebank-heranca" type="cbb8eebc:String" user="bytebank-heranca" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank-heranca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank-heranca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="banco" type="462c0819:PsiDirectoryNode" />
-              <item name="java_io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,20 +249,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteScanner">
+  <component name="RunManager" selected="Application.TesteSerializacao">
     <configuration name="TesteCopiarArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteCopiarArquivo" />
-      <module name="bytebank-heranca" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.bytebank.banco.java_io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TesteEscrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteEscrita" />
       <module name="bytebank-heranca" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -268,8 +277,8 @@
       <module name="bytebank-heranca" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteLeitura" />
+    <configuration name="TesteScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteScanner" />
       <module name="bytebank-heranca" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -279,8 +288,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TesteScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteScanner" />
+    <configuration name="TesteSerializacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteSerializacao" />
+      <module name="bytebank-heranca" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.java_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TesteUnicodeEEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.java_io.TesteUnicodeEEncoding" />
       <module name="bytebank-heranca" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -333,19 +353,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TesteFuncionario" />
-      <item itemvalue="Application.TesteLeitura" />
-      <item itemvalue="Application.TesteEscrita" />
       <item itemvalue="Application.TesteCopiarArquivo" />
       <item itemvalue="Application.TesteEscritaFileWriter" />
       <item itemvalue="Application.TesteScanner" />
+      <item itemvalue="Application.TesteUnicodeEEncoding" />
+      <item itemvalue="Application.TesteSerializacao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteSerializacao" />
+        <item itemvalue="Application.TesteUnicodeEEncoding" />
         <item itemvalue="Application.TesteScanner" />
         <item itemvalue="Application.TesteEscritaFileWriter" />
         <item itemvalue="Application.TesteCopiarArquivo" />
-        <item itemvalue="Application.TesteEscrita" />
-        <item itemvalue="Application.TesteLeitura" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +396,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.41323793" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.2437247" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.24777327" />
       <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.2340081" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -399,13 +419,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testes/TesteFuncionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -742,16 +755,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contas.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="159">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteUnicodeEEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/java_io/TesteSerializacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>

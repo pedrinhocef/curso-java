@@ -16,5 +16,7 @@ public class TesteSerializacao {
         String object = (String) ois.readObject();
         System.out.println(object);
         ois.close();
+
+
     }
 }

@@ -1,12 +1,16 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Pedro Soares
  * @version 0.1
  */
 
-public class Cliente {
+public class Cliente implements Serializable {
+
+    private static final Long serialVersionUID = 1L;
 
     private String nome;
     private String cpf;
